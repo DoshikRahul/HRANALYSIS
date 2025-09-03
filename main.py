@@ -20,9 +20,9 @@ except ImportError:
     logger.warning("python-dotenv not installed. Using system environment variables only.")
 
 # === CONFIGURATION ===
-GEMINI_API_KEY = "AIzaSyB0C1-3CRSG9GxAjkXSrAmCPvSGqOf5vps"
-QDRANT_URL = os.getenv("QDRANT_URL", "https://d5001293-a8e5-4622-bc57-86c69005c632.us-west-2-0.aws.cloud.qdrant.io")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhY2Nlc3MiOiJtIn0.fDwHFUttXub77IymhYo-B2sWMFzQRifSx56k1FlCCRM")
+GEMINI_API_KEY = "Your_API_key"
+QDRANT_URL = os.getenv("QDRANT_URL", "Your_qdrant_url_key")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "Your_API_key")
 
 # MySQL settings
 MYSQL_HOST = os.getenv("MYSQL_HOST", "localhost")
